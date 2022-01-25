@@ -6,6 +6,9 @@ In this repo, I will apply the skills acquired in the Data Product Manager Nanod
 You will see that I have divided this Use Case into 4 chapters:
 
 <b>1. Starting the adventure </b>:rocket:
+We will start this journey by using Objectives and Key Results (OKR) and the selection of appropriate Key Performance Indicators (KPI).
+Next we create an Instrumentation Plan, so that we are able to gather the right information to make good data-driven decisions. 
+As a result we can build our Data Pipeline with AWS.
 
 <b>2. Analytics for the win </b> :bar_chart:
 
