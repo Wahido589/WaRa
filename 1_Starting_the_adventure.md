@@ -1,3 +1,5 @@
+<h2>OKR and KPI</h2>
+
 I am responsible for bringing the first flying taxi service to market by analyzing data and building a product proposal. 
 My team and me have discussed and defined Objectives and Key Results (OKR) we want to hit. We want to tackle the most important one right now:
 
@@ -17,6 +19,7 @@ The Objective is focused on <b>User Acquisition</b>. At this point in the Produc
 4. Net Promoter Score :arrow_right: in average 10 out of 10 times the customer would most likely refer us for network effects
 5. Average Score of Recommendation :arrow_right: in average around 8 out of 10 times the customer had a good experience for gaining trust
 
+<h2>Creation of an Instrumentation Plan</h2>
 Having well designed KPIs we need to make sure that we collect the right data. By creating an <b>instrumentation plan</b> for the events, we need to collectand log, we will be able to physically measure the KPIs. The events will be stored in databases for access. First we start with KPIs & breakdown the user steps that contribute to the KPI. Next, we understand the transaction flow and build in events that should be recorded. Here is the result: 
 
 1. Customer Acquisition Costs (UserSignUp, UserRideHistory, MarketingCosts)
@@ -39,6 +42,8 @@ Having an instrumentation plan, we also would need to think about the <b>Data St
 While we are running business and collecting data, we would also like to test features to improve our product (here helps the <b>Design Thinking</b> Framework). Therefore we need enough data to run experiments (MVP sample size). Assuming we are able to get 7k new sign ups per week we might be able to have sufficient users to build up two variations within a month. We expect to have first insights after 2 months of the launch. Source: https://www.optimizely.com/sample-size-calculator?conversion=3&effect=20&significance=95
 
 <img src="https://user-images.githubusercontent.com/72414477/150948628-250cc4a6-d795-45cf-b2dc-a919cb73bb62.png" width="250" height="100">
+
+<h2> Building a Data Pipeline with AWS </h2>
 
 Having considered all of the areas above, we are able to structure <b>data pipeline</b>. 
 
