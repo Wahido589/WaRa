@@ -39,5 +39,6 @@ As you see there is a bit that we need to consider in our use case. There are to
 
 <h2>4. Areas of Overlap</h2>
 From a DPO perspective we generally want to follow the Principles relating to processing of personal data (Art 5 GDPR). Meeting the requirements for Lawfulness of Processing (Art 6 GDPR) and for Security of processing (Art 32 GDPR) will materially help us with that. Security of processing is sufficiently covered if we address the risk in Art 32 (2) GDPR appropriately. This risks can be aggregated to 3 main risks: Illegitimate access to data, Unwanted modification of data & data disappearance. When we look at the Risk Overview (risk_overview.png), we find the Risk on the right side. 
-![image](https://user-images.githubusercontent.com/72414477/150956273-5f30091f-c187-4c73-b577-e02c1f6a4858.png)
+
+<img src="https://user-images.githubusercontent.com/72414477/150956273-5f30091f-c187-4c73-b577-e02c1f6a4858.png" width="750" height="400"> 
 
