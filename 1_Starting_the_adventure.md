@@ -34,4 +34,10 @@ Having an instrumentation plan, we also would need to think about the Data Strat
 
 While we are running business and collecting data, we would also like to test features to improve our product (here helps the Design Thinking Framework). Therefore we need enough data to run experiments (MVP sample size). Assuming we are able to get 7k new sign ups per week we might be able to have sufficient users to build up two variations within a month. We expect to have first insights after 2 months of the launch. Source: https://www.optimizely.com/sample-size-calculator?conversion=3&effect=20&significance=95
 
-<img src="https://user-images.githubusercontent.com/72414477/150948628-250cc4a6-d795-45cf-b2dc-a919cb73bb62.png" width="400" height="150">
+<img src="https://user-images.githubusercontent.com/72414477/150948628-250cc4a6-d795-45cf-b2dc-a919cb73bb62.png" width="250" height="100">
+
+Having considered all of the areas above, we are able to structure data pipeline. 
+
+<img src="https://user-images.githubusercontent.com/72414477/150949133-2587b91d-1e50-4fb1-8139-19c6e3f4a22e.png" width="400" height="150">
+
+
