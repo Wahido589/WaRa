@@ -7,13 +7,13 @@ The Objective is focused on <b>User Acquisition</b>. At this point in the Produc
 
 <p>1. Customer Acquisition Costs :arrow_right: 1/3 of the income per User (CLV) Source: https://blog.hubspot.com/service/what-does-cac-stand-for </p>
 <p>2. Number of Flights/ Week :arrow_right: ~ 105 Flights each Aircraft per Week<p>	 
-- Best Days and Time to operate is Friday and Saturday between 8am – 4pm as well as 5pm – 9pm	
-- This makes up 24 operating hours per week which equals 1.440 minute per week</p>
-- 1440 minutes divided through median duration (11min) = 131 Flights per Week</p> 
-- Using Pareto Principle (80/20) we estimate that 131*80% = 105 Flights per Week are doable</p>	
+2.1 Best Days and Time to operate is Friday and Saturday between 8am – 4pm as well as 5pm – 9pm	
+2.2 This makes up 24 operating hours per week which equals 1.440 minute per week</p>
+2.3 1440 minutes divided through median duration (11min) = 131 Flights per Week</p> 
+2.4 Using Pareto Principle (80/20) we estimate that 131*80% = 105 Flights per Week are doable</p>	
 <p>3. Number of Weekly active Users :arrow_right: ~ Assuming 3% Conversion rate => 7000 weekly active Users Source: https://blog.hubspot.com/marketing/conversion-rate-optimization-guide<p>
-- Having two aircrafts we are aiming for 105 *2 = 210 Flights per Week in Total</p>
-- Assuming that 210 Flights is the result of a 3% conversion rate we expect 6.982 weekly active Users	which makes up approx. 7000 Users</p>
+3.1 Having two aircrafts we are aiming for 105 *2 = 210 Flights per Week in Total</p>
+3.2 Assuming that 210 Flights is the result of a 3% conversion rate we expect 6.982 weekly active Users	which makes up approx. 7000 Users</p>
  <p>4. Net Promoter Score :arrow_right: in average 10 out of 10 times the customer would most likely refer us for network effects </p>
  <p>5. Average Score of Recommendation :arrow_right: in average around 8 out of 10 times the customer had a good experience for gaining trust</p>
 
@@ -25,7 +25,13 @@ A distinction is made between Entity and Event data.
 An <b>Entity</b> is a unique object such as a customer, product, order, etc. 
 Entity Attributes are the properties that describe it. Entity data is stored in a table, for every entity there is a separate table, and every table has columns that describe these entities. One row is dedicated to recording one type of each entity. The drawback of the entity data model is that the joins might get complicated and introduce latency. The advantages are the removal of data duplication and a simple, easy to understand basic structure. <b>Event</b> data mainly describes the actions performed by entities. A Few key pieces of information that are captured in event data might be the action, timestamp and state. Below you see examples how Entity and Event Data can be required:
 
-<img src="https://user-images.githubusercontent.com/72414477/150946847-8ae491f1-6b29-4148-93fb-dc2044e911c5.png" width="200" height="200"> 
+<img src="https://user-images.githubusercontent.com/72414477/150946847-8ae491f1-6b29-4148-93fb-dc2044e911c5.png" width="200" height="300"> 
 
+Having an instrumentation plan, we also would need to think about the Data Strategy in terms of 
+ - Data Processing (ELT vs ETL/ Batch vs Stream), 
+ - Data Storage (SQL vs NoSQL/ Data Lake/ Data Warehouse), 
+ - Data Infrastructure Strategy (Build vs Buy/ Cloud vs On-Prem) and Security & Compliance. 
 
+While we are running business and collecting data, we would also like to test features to improve our product (here helps the Design Thinking Framework). Therefore we need enough data to run experiments (MVP sample size). Assuming we are able to get 7k new sign ups per week we might be able to have sufficient users to build up two variations within a month. We expect to have first insights after 2 months of the launch. Source: https://www.optimizely.com/sample-size-calculator?conversion=3&effect=20&significance=95
 
+<img src="https://user-images.githubusercontent.com/72414477/150948628-250cc4a6-d795-45cf-b2dc-a919cb73bb62.png" width="400" height="150">
