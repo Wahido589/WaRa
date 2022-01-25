@@ -21,7 +21,7 @@ The Objective is focused on <b>User Acquisition</b>. At this point in the Produc
 
 Having well designed KPIs we need to make sure that we collect the right data. By creating an instrumentation plan for the events, we need to collectand log, we will be able to physically measure the KPIs. The events will be stored in databases for access. First we start with KPIs & breakdown the user steps that contribute to the KPI. Next, we understand the transaction flow and build in events that should be recorded. Here is the result: 
 
-1. Customer Acquisition Costs (UserSignUp, UserRideHistory, MarketingCosts)2. Number of Flights/ Week (AircraftPaidTakeoffs, UserOnboard, UserOffboard)	3. Number of Weekly active Users (UserLogIn, UserFlightSearch)4. Net Promoter Score (RatingNPS)5. Average Score of Recommendation (UserRideHistory, UserRatings)
+<p>1. Customer Acquisition Costs (UserSignUp, UserRideHistory, MarketingCosts)</p><p<2. Number of Flights/ Week (AircraftPaidTakeoffs, UserOnboard, UserOffboard)</p><p>3. Number of Weekly active Users (UserLogIn, UserFlightSearch)</p><p>4. Net Promoter Score (RatingNPS)</p><p>5. Average Score of Recommendation (UserRideHistory, UserRatings)</p>
 
 A distinction is made between Entity and Event data. 
 An <b>Entity</b> is a unique object such as a customer, product, order, etc. 
