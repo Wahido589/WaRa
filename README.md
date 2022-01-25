@@ -13,7 +13,7 @@ As a result we build our Data Pipeline with AWS. #aws #design_thinking #okr #dat
 <b>2. Analytics for the win </b> :bar_chart:
 🚧
 
-<b>3. Impact of Privacy Rights</b> :orange_book: 
+<b>3. [Impact of Privacy Rights](https://github.com/Wahido589/WaRa/blob/875bf0b84f3d1bd256f66b8c4fc7dcfb8770656d/3_Impact_of_privacy_rights.md)</b> :orange_book: 
 As a Product Manager we think interdisciplinary. That means we also have to deal with legal implications on our product. 
 We will find out if privacy rights apply to our planned actions. If so, what exactly do we need to consider? Is there 
 anything extra special we need to keep in mind? I will use this part of the use case as well to show areas of overlap
