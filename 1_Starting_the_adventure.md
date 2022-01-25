@@ -1,4 +1,4 @@
-I am responsible for bringing the first flying car taxi service to market by analyzing data and building a product proposal. 
+I am responsible for bringing the first flying taxi service to market by analyzing data and building a product proposal. 
 My team and me have discussed and defined Objectives and Key Results (OKR) we want to hit. We want to tackle the most important one right now:
 
 Objective: “Introduce Flyber Taxi as a trustworthy & unique experience to the market in Q2”
