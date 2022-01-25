@@ -14,8 +14,8 @@ The Objective is focused on <b>User Acquisition</b>. At this point in the Produc
 <p>3. Number of Weekly active Users :arrow_right: ~ Assuming 3% Conversion rate => 7000 weekly active Users Source: https://blog.hubspot.com/marketing/conversion-rate-optimization-guide 
  - Having two aircrafts we are aiming for 105 *2 = 210 Flights per Week in Total
  - Assuming that 210 Flights is the result of a 3% conversion rate we expect 6.982 weekly active Users	which makes up approx. 7000 Users
- <p>4. Net Promoter Score in average 10 out of 10 times the customer would most likely refer us for network effects </p>
- <p>5. Average Score of Recommendation in average around 8 out of 10 times the customer had a good experience for gaining trust</p>
+ <p>4. Net Promoter Score :arrow_right: in average 10 out of 10 times the customer would most likely refer us for network effects </p>
+ <p>5. Average Score of Recommendation :arrow_right: in average around 8 out of 10 times the customer had a good experience for gaining trust</p>
 
 
 
