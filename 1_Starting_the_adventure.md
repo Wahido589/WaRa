@@ -17,8 +17,6 @@ The Objective is focused on <b>User Acquisition</b>. At this point in the Produc
  <p>4. Net Promoter Score :arrow_right: in average 10 out of 10 times the customer would most likely refer us for network effects </p>
  <p>5. Average Score of Recommendation :arrow_right: in average around 8 out of 10 times the customer had a good experience for gaining trust</p>
 
-
-
 Having well designed KPIs we need to make sure that we collect the right data. By creating an instrumentation plan for the events, we need to collectand log, we will be able to physically measure the KPIs. The events will be stored in databases for access. First we start with KPIs & breakdown the user steps that contribute to the KPI. Next, we understand the transaction flow and build in events that should be recorded. Here is the result: 
 
 <p>1. Customer Acquisition Costs (UserSignUp, UserRideHistory, MarketingCosts)</p><p<2. Number of Flights/ Week (AircraftPaidTakeoffs, UserOnboard, UserOffboard)</p><p>3. Number of Weekly active Users (UserLogIn, UserFlightSearch)</p><p>4. Net Promoter Score (RatingNPS)</p><p>5. Average Score of Recommendation (UserRideHistory, UserRatings)</p>
@@ -26,6 +24,7 @@ Having well designed KPIs we need to make sure that we collect the right data. B
 A distinction is made between Entity and Event data. 
 An <b>Entity</b> is a unique object such as a customer, product, order, etc. 
 Entity Attributes are the properties that describe it. Entity data is stored in a table, for every entity there is a separate table, and every table has columns that describe these entities. One row is dedicated to recording one type of each entity. The drawback of the entity data model is that the joins might get complicated and introduce latency. The advantages are the removal of data duplication and a simple, easy to understand basic structure. <b>Event</b> data mainly describes the actions performed by entities. A Few key pieces of information that are captured in event data might be the action, timestamp and state. Below you see examples how Entity and Event Data can be required:
+
 <img src="https://user-images.githubusercontent.com/72414477/150946847-8ae491f1-6b29-4148-93fb-dc2044e911c5.png" width="200" height="200"> 
 
 
