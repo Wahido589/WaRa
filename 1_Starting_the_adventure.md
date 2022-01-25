@@ -8,7 +8,7 @@ My team and me have discussed and defined Objectives and Key Results (OKR) we wa
 The Objective is focused on <b>User Acquisition</b>. At this point in the Product Development Cycle, we want to introduce our service into the market and gain trust of the customers and show them the benefit of Flying Taxis. In the Growth Phase we can focus more on User Engagement where we can improve the awareness and incorporate lessons learned through our first service flights. Later on in the Maturity Phase we can focus more on <b>User Retention & Profitability</b> to secure revenues and improve margins. <b>Key Performance Indicators</b> will help us to measure our actions.
 
 1. Customer Acquisition Costs :arrow_right: 1/3 of the income per User (CLV) Source: https://blog.hubspot.com/service/what-does-cac-stand-for
-2. Number of Flights/ Week :arrow_right: ~ 105 Flights each Aircraft per Week	 
+2. Number of Flights/ Week :arrow_right: ~ 105 Flights each Aircraft per Week 
    - Best Days and Time to operate is Friday and Saturday between 8am – 4pm as well as 5pm – 9pm	
    - This makes up 24 operating hours per week which equals 1.440 minute per week
    - 1440 minutes divided through median duration (11min) = 131 Flights per Week
