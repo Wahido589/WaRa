@@ -1,4 +1,4 @@
-# Flying Taxis
+# Flying_Taxis
 
 <p> Hi there :wave: </p>
 In this repo, I will apply the skills acquired in the Data Product Manager Nanodegree Program from Udacity. The goal is to create the MVP launch strategy for the first flying taxi service, Flyber :small_airplane:, in one of the most congested cities in America -- New York City :statue_of_liberty:. 
