@@ -51,8 +51,8 @@ The measures are derived from Art 32 (1) GDPR:
  - Pseudonymisation and encryption of personal data
 
 A big part of my work was to identify relevant IT applications and test on a regular basis the effectivness of technical and organisational measures. Mostly I was concerned about the Confidentiality & Integrity: 
-- making sure that the Change Mgmt Process is working so that applications are working reliably and making sure that Patchmgmt is working on database level (the ITIL Framework helps to structure IT processes)
-- auditing Logical Access to IT applications and databases which deals with Identity and Access Mgmt (the ISO 2700x Framework provides security technique approaches)
+- making sure that the Change Mgmt Process is working so that applications are working reliably and making sure that Patchmgmt is working on database level (the <b>ITIL</b> Framework helps to structure IT processes)
+- auditing Logical Access to IT applications and databases which deals with Identity and Access Mgmt (the <b>ISO 2700x</b> Framework provides security technique approaches)
 - checking Physical Access to data centers & the Disaster Recovery process (e.g. uninterruptable power supply, emergency generators) 
 - while Availability (e.g. working backup strategy) was part of my work, Resilience of processing systems and services (e.g. usage of Load Balancers within the Network) has not been a focus. 
 
