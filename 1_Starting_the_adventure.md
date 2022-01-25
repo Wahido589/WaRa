@@ -26,7 +26,7 @@ Having well designed KPIs we need to make sure that we collect the right data. B
 A distinction is made between Entity and Event data. 
 An <b>Entity</b> is a unique object such as a customer, product, order, etc. 
 Entity Attributes are the properties that describe it. Entity data is stored in a table, for every entity there is a separate table, and every table has columns that describe these entities. One row is dedicated to recording one type of each entity. The drawback of the entity data model is that the joins might get complicated and introduce latency. The advantages are the removal of data duplication and a simple, easy to understand basic structure. <b>Event</b> data mainly describes the actions performed by entities. A Few key pieces of information that are captured in event data might be the action, timestamp and state. Below you see examples how Entity and Event Data can be required:
-
+<img src="https://user-images.githubusercontent.com/72414477/150946847-8ae491f1-6b29-4148-93fb-dc2044e911c5.png" width="200" height="200"> 
 
 
 
