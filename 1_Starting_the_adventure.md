@@ -40,4 +40,15 @@ Having considered all of the areas above, we are able to structure data pipeline
 
 <img src="https://user-images.githubusercontent.com/72414477/150949133-2587b91d-1e50-4fb1-8139-19c6e3f4a22e.png" width="400" height="150">
 
+How does the life cycle of data and processes work?
+1. Data is collected from the user (either through usage of desktop or app version) & from Taxi Drones
+2. Data is transferred through an Load Balancer to our Servers who are writing entity data to a structured database and event data into an unstructured database (S3 bucket as Data Lake)
+3. Data Storages are hosted through AWS. Location is Frankfurt (Germany). 
+4. Both data storages will send their information regularly to the Data Warehouse.
+5. Databases and the Data Warehouse are mirrored in another AWS data center (Milan) for Disaster Recovery purposes.
+6. Flight Taxi Inc. is evaluating the information with Tableau, MS Excel and an Integrated Development Environment for applying Machine Learning Frameworks like Scikit-Learn, Keras/Tensorflow. Access is enabled through an authorization concept and custom build APIs.
 
+Data is collected with each User2Product and Drone Interaction (aka not time dependent); Storage Duration: 1 year and unlimited after anonymization
+
+Are the data accurate and kept up to date?
+Data is collected based on action and stored in the connected database/ data lake. From there the data will be forwarded to the Data Warehouse during night (supports completeness & accuray of data through usage of low latency timeframes).  Data Validation after transfer is automatically done via scheduled job between data sources and Data Warehouse. Deviation will be investigated & solved by employees.
