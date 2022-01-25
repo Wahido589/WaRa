@@ -11,6 +11,7 @@ Next we create an Instrumentation Plan, so that we are able to gather the right 
 As a result we build our Data Pipeline with AWS. #aws #design_thinking #okr #data_strategy #business_dev
 
 <b>2. Analytics for the win </b> :bar_chart:
+🚧
 
 <b>3. Impact of Privacy Rights</b> :orange_book: 
 As a Product Manager we think interdisciplinary. That means we also have to deal with legal implications on our product. 
@@ -20,3 +21,4 @@ with my previous job as an IT consultant. Please be aware that the following is 
 This is just for the purpose of showcasing my skillset. #iso2700x #itil #gdpr #dpo
 
 <b>4. Applying iterative design principles to the live product</b> :arrows_counterclockwise:
+🚧
