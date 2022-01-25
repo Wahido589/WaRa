@@ -17,7 +17,7 @@ As a result we build our Data Pipeline with AWS. #aws #design_thinking #okr #dat
 As a Product Manager we think interdisciplinary. That means we also have to deal with legal implications on our product. 
 We will find out if privacy rights apply to our planned actions. If so, what exactly do we need to consider? Is there 
 anything extra special we need to keep in mind? I will use this part of the use case as well to show areas of overlap
-with my previous job as an IT consultant. Please be aware that the following is no legal advice on how to deal with similar use cases. 
+with my previous job as an IT consultant. Please be aware that this is no legal advice on how to deal with similar use cases. 
 This is just for the purpose of showcasing my skillset. #iso2700x #itil #gdpr #dpo
 
 <b>4. Applying iterative design principles to the live product</b> :arrows_counterclockwise:
