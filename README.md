@@ -5,7 +5,7 @@ In this repo, I will apply the skills acquired in the Data Product Manager Nanod
 
 You will see that I have divided this Use Case into 4 chapters:
 
-<b>1. Starting the adventure </b>:rocket:
+<b>1. [Starting the adventure](https://github.com/Wahido589/WaRa/blob/25f815c4174436a82882a92500d8468434fd0590/1_Starting_the_adventure.md) </b>:rocket:
 We will start this journey by using Objectives and Key Results (OKR) and the selection of appropriate Key Performance Indicators (KPI).
 Next we create an Instrumentation Plan, so that we are able to gather the right information to make good data-driven decisions. 
 As a result we build our Data Pipeline with AWS. #aws #design_thinking #okr #data_strategy #business_dev
