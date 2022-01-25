@@ -29,7 +29,7 @@ Looking into §25 TTDSG, we understand, that we need explicit consent of our Use
 
 <p>f. While our Data Pipeline is designed on the basis of Amazon Web Services we need to consider Art 28 GDPR which is about Data Processors. We need to make sure that the Data Processor has sufficient technical and organisational measures in place. We do this by having a contract with AWS which will be enriched by standard contractual clauses (28 (6) GDPR).</p>
 
-<p>g. To meet the the Principles (see 2b.) Lawfulness, fairness and transparency, we should ensure that we are able to meet the expectations set in Art 12 GDPR (Transparent information, communication and modalities for the excercise of the rights of the 'customer'). In addition to the information that needs to be provided to the customer (Art 13 & 14) we need to make sure to be able to fulfill the rights of the customers according to Art 15 - 22, 77 GDPR.</p>
+<p>g. To meet the the Principles (see 2b.) Lawfulness, fairness and transparency, we should ensure that we are able to meet the expectations set in Art 12 GDPR (Transparent information, communication and modalities for the excercise of the rights of the 'customer'). In addition to the information that needs to be provided to the customer (Art 13 & 14) we need to make sure to be able to fulfill the rights of the customers according to Art 15-22 & 77 GDPR.</p>
 
 <p>h. Profiling collects a lot of personal data which is specifically adressed by GDPR. A Data Protection Impact Assessement (Art 35 GDPR) is necessary when one of the aspects in Paragraph 4 or one requirement in Paragraph 3 is met. For Paragraph 4 we need to check with the supervisory authority if our planned activities are on their black list. If it is not on the black list, we still meet the requirement in Paragraph 3, lit. a (Profiling).  We could run down the specifics of the impact assessment in Art 35 GDPR, but we can also make use of the open-source PIA Tool (https://github.com/LINCnil/pia-back), which is provided by the french supervisory authority.</p>
 
@@ -42,3 +42,19 @@ From a DPO perspective we generally want to follow the Principles relating to pr
 
 <img src="https://user-images.githubusercontent.com/72414477/150956273-5f30091f-c187-4c73-b577-e02c1f6a4858.png" width="750" height="400"> 
 
+If we go to the top left we see the Potential Damage which can effect us if the risk occurs. Reasons why the risk could occur can be found under
+Threats. The Sources of the Threats are also listed in the overview. Ultimately the Threats needs to be covered through measures. 
+The measures are derived from Art 32 (1) GDPR:
+ 
+ - Confidentiality, Integrity, Availability and Resilience of processing systems and services 
+ - ability to Restore the Availability and Access to personal data in a timely manner in the event of a physical or technical incident
+ - Pseudonymisation and encryption of personal data
+
+A big part of my work was to identify relevant IT applications and test on a regular basis the effectivness of technical and organisational measures. Mostly I was concerned about the Confidentiality & Integrity: 
+- making sure that the Change Mgmt Process is working so that applications are working reliably and making sure that Patchmgmt is working on database level (the ITIL Framework helps to structure IT processes)
+- auditing Logical Access to IT applications and databases which deals with Identity and Access Mgmt (the ISO 2700x Framework provides security technique approaches)
+- checking Physical Access to data centers & the Disaster Recovery process (e.g. uninterruptable power supply, emergency generators) 
+- while Availability (e.g. working backup strategy) was part of my work, Resilience of processing systems and services (e.g. usage of Load Balancers within the Network) has not been a focus. 
+
+Going through this steps, we are able to decide whether an IT system is reliable or not. In the context of financial reporting that impacts the reliability of information that is gathered through an IT system.
+Which implications that has on financials will be explained by me in another use case. 
