@@ -3,7 +3,7 @@
 <p> Hi there :wave: </p>
 In this repo, I will apply the skills acquired in the Data Product Manager Nanodegree Program from Udacity. The goal is to create the MVP launch strategy for the first flying taxi service, Flyber :small_airplane:, in one of the most congested cities in America -- New York City :statue_of_liberty:. 
 
-You will see that I have divided this Use Case into 4 chapters:
+I have divided this Use Case into 4 chapters:
 
 <b>1. [Starting the adventure](https://github.com/Wahido589/WaRa/blob/25f815c4174436a82882a92500d8468434fd0590/1_Starting_the_adventure.md) </b>:rocket:
 We will start this journey by using Objectives and Key Results (OKR) and the selection of appropriate Key Performance Indicators (KPI).
