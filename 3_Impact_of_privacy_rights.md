@@ -6,32 +6,32 @@ There are some steps we need to check from a Data Protection point of view.
 Yes, according to Art 3 (1) GDPR. We do business in the EU and deal with data of EU customers.  
 
 <h2>2. What exactly do we need to consider when GDPR does apply?</h2>
-<p>a. Lawfulness of Processing 
+<p><p>a. Lawfulness of Processing</p> 
 We will meet the conditions according to Art 6 (1) lit. a, b GDPR. The User will give a consent through the acknowledgment of the Terms of Service while signing up. We will work with Cookies to gather Data and therefore the User needs to confirm the usage as well. We will do this via Cookie Banner.</p>
  
-<p>b. Principles relating to processing of personal data
+<p><p>b. Principles relating to processing of personal data</p>
 We need to keep an eye on the principles according to Art 5 GDPR:
 Lawfulness, fairness and transparency/ Purpose limitation/ Data minimisation/ Accuracy/ Storage limitation/ Accountabilty</p>
 
-<p>c. Security of processing 
+<p><p>c. Security of processing</p> 
 According to Art 32 GDPR we need to have appropriate technical and organisational measures in place to ensure a certain level of security. To understand what a certain level of security means we can look into Art 32 (2) GDPR. Our measures must cover the processing risks, in particular accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed. 
 To address these risks our goals are Confidentiality, Integrity, Availability and Resilience of processing systems and services as well as the ability to Restore the Availability and Access to personal data in a timely manner in the event of a physical or technical incident. Pseudonymisation and encryption of personald data support our goals. 
 A regular audit for evaluating the effectiveness of technical and organisational measures should be conducted to ensure that the level of security is sufficient.</p>
 
-<p>d. Automated individual decision-making, including profiling
+<p><p>d. Automated individual decision-making, including profiling</p>
 According to Art 22 (1) GDPR our customers shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her. We do meet the definition of profiling (Art 4 (4) GDPR). 
 Art 22 (2) GDPR shows us when profiling is allowed. We will ask for explicit consent (lit. b) or we will mention that this profiling is necessary for entering into a contract with us (e.g. Terms of Service, see lit. a).</p>
 
 
 <h2>3. Anything else what could give us some Headaches?</h2>
- <p>e. As we want to use Cookies to collect the data, we need to consider the Telecommunications and Telemedia Data Protection Act (German Law, aka "TTDSG"), because of § 1 (3) TTDSG. It is the same as above in step 1. It is derived from Art 5 (3) of the European ePrivacy Directive. This Article has been transposed into German Law as of 1/12/2021.
+ <p><p>e. Tools for gathering data</p>As we want to use Cookies to collect the data, we need to consider the Telecommunications and Telemedia Data Protection Act (German Law, aka "TTDSG"), because of § 1 (3) TTDSG. It is the same as above in step 1. It is derived from Art 5 (3) of the European ePrivacy Directive. This Article has been transposed into German Law as of 1/12/2021.
 Looking into §25 TTDSG, we understand, that we need explicit consent of our Users to implement a Cookie on their end device. As mentioned above in 2a., we will take care of this by using a Cookie Banner. How an explicit consent must look like, is described in Art 7 & 8 GDPR.</p> 
 
-<p>f. While our Data Pipeline is designed on the basis of Amazon Web Services we need to consider Art 28 GDPR which is about Data Processors. We need to make sure that the Data Processor has sufficient technical and organisational measures in place. We do this by having a contract with AWS which will be enriched by standard contractual clauses (Art 28 (6) GDPR).</p>
+<p><p>f. Dealing with Data Processors</p>While our Data Pipeline is designed on the basis of Amazon Web Services we need to consider Art 28 GDPR which is about Data Processors. We need to make sure that the Data Processor has sufficient technical and organisational measures in place. We do this by having a contract with AWS which will be enriched by standard contractual clauses (Art 28 (6) GDPR).</p>
 
-<p>g. To meet the the Principles (see 2b.) Lawfulness, fairness and transparency, we should ensure that we are able to meet the expectations set in Art 12 GDPR (Transparent information, communication and modalities for the excercise of the rights of the 'customer'). In addition to the information that needs to be provided to the customer (Art 13 & 14 GDPR) we need to make sure to be able to fulfill the rights of the customers according to Art 15-22 & 77 GDPR.</p>
+<p><p>g. Being able to fulfill the rights of our customers</p> To meet the the Principles (see 2b.) Lawfulness, fairness and transparency, we should ensure that we are able to meet the expectations set in Art 12 GDPR (Transparent information, communication and modalities for the excercise of the rights of the 'customer'). In addition to the information that needs to be provided to the customer (Art 13 & 14 GDPR) we need to make sure to be able to fulfill the rights of the customers according to Art 15-22 & 77 GDPR.</p>
 
-<p>h. Profiling collects a lot of personal data which is specifically adressed by GDPR. A Data Protection Impact Assessement (Art 35 GDPR) is necessary when one of the aspects in Paragraph 4 or one requirement in Paragraph 3 is met. For Paragraph 4 we need to check with the supervisory authority if our planned activities are on their black list. If it is not on the black list, we still meet the requirement in Paragraph 3, lit. a (Profiling).  We could run down the specifics of the impact assessment in Art 35 GDPR, but we can also make use of the open-source PIA Tool (https://github.com/LINCnil/pia-back), which is provided by the french supervisory authority.</p>
+<p><p>h. Conducting an Impact Assessment</p> Profiling collects a lot of personal data which is specifically adressed by GDPR. A Data Protection Impact Assessement (Art 35 GDPR) is necessary when one of the aspects in Paragraph 4 or one requirement in Paragraph 3 is met. For Paragraph 4 we need to check with the supervisory authority if our planned activities are on their black list. If it is not on the black list, we still meet the requirement in Paragraph 3, lit. a (Profiling).  We could run down the specifics of the impact assessment in Art 35 GDPR, but we can also make use of the open-source PIA Tool (https://github.com/LINCnil/pia-back), which is provided by the french supervisory authority.</p>
 
 The PIA Tool offers a workflow to ensure the Data Protection Impact Assessement is properly done. Everything that was mentioned above will be asked while you go through the workflow. I have attached some of Screens out of the PIA Tool (see enclosed file PIA_Tool_example.pdf). At the end of the evaluation process we have a Risk Overview (see enclosed file risk_overview.png). In a perfect world, the Process Owner is responsible to do the Impact Assessment and the Data Privacy Officer ("DPO") is reviewing. There are different scenarios when a company must have a <b>DPO</b>. You can have a look into Art 37 (1) GDPR in conjunction with §38 (1) German Federal Data Protection Act ("BDSG"). According to BDSG we need to have a designated DPO if we do Data Protection Impact Assessements. 
 
