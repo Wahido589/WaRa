@@ -10,8 +10,10 @@ We will start this journey by using Objectives and Key Results (OKR) and the sel
 Next we create an Instrumentation Plan, so that we are able to gather the right information to make good data-driven decisions. 
 As a result we build our Data Pipeline with AWS. #aws #design_thinking #okr #data_strategy #business_dev
 
-<b>2. Analytics for the win </b> :bar_chart:
-🚧
+<b>2. Analytics for the win </b> :bar_chart: :
+It is hard to make decisions without looking into data. Fortunately we have taxi ride data available. Furthermore, we have had interviews with users to understand how they think about our business idea. We already had a look into it while we discussed our OKR and the data strategy in the first chapter, because data is the basis for our decisions.
+Thats why have a more detailed look at the information and take necessary steps to get the data ready for even deeper insights. This section is divided in an initial EDA part including data wrangling/cleaning [2.1](path) and an analytics/viz [2.2](path) part. 
+<em>TechStack: Python, Pandas, PandasProfiler, Numpy, Matplotlib, Seaborn, Tableau</em>
 
 <b>3. [Impact of Privacy Rights](https://github.com/Wahido589/WaRa/blob/875bf0b84f3d1bd256f66b8c4fc7dcfb8770656d/3_Impact_of_privacy_rights.md)</b> :orange_book: 
 As a Product Manager we think interdisciplinary. That means we also have to deal with legal implications on our product. 
