@@ -8,7 +8,7 @@ I have divided this Use Case into 4 chapters:
 <b>1. [Starting the adventure](https://github.com/Wahido589/WaRa/blob/25f815c4174436a82882a92500d8468434fd0590/1_Starting_the_adventure.md) </b>:rocket:
 We will start this journey by using Objectives and Key Results (OKR) and the selection of appropriate Key Performance Indicators (KPI).
 Next we create an Instrumentation Plan, so that we are able to gather the right information to make good data-driven decisions. 
-As a result we build our Data Pipeline with AWS. #aws #design_thinking #okr #data_strategy #business_dev
+As a result we build our Data Pipeline with AWS. <p><em>#aws #design_thinking #okr #data_strategy #business_dev</em></p>
 
 <b>2. Analytics for the win </b> :bar_chart: :
 It is hard to make decisions without looking into data. Fortunately we have taxi ride data available. Furthermore, we have had interviews with users to understand how they think about our business idea. We already had a look into it while we discussed our OKR and the data strategy in the first chapter, because data is the basis for our decisions.
