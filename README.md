@@ -10,7 +10,7 @@ We will start this journey by using Objectives and Key Results (OKR) and the sel
 Next we create an Instrumentation Plan, so that we are able to gather the right information to make good data-driven decisions. 
 As a result we build our Data Pipeline with AWS. <p><em>#aws #design_thinking #okr #data_strategy #business_dev</em></p>
 
-<b>2. Analytics for the win </b> :bar_chart: :
+<b>2. Analytics for the win </b> :bar_chart:
 It is hard to make decisions without looking into data. Fortunately we have taxi ride data available. Furthermore, we have had interviews with users to understand how they think about our business idea. We already had a look into it while we discussed our OKR and the data strategy in the first chapter, because data is the basis for our decisions.
 Thats why have a more detailed look at the information and take necessary steps to get the data ready for even deeper insights. This section is divided in an initial EDA part including data wrangling/cleaning [2.1](https://github.com/Wahido589/WaRa/blob/814e76e178c7fc36c167e169336fb925371e180e/2.1_Analytics_for_the_win.ipynb) and an analytics/viz [2.2](https://github.com/Wahido589/WaRa/blob/402ed43372cd9e077ee9c571a27b9a180e374b50/2.2_Analytics_for_the_win.md) part. 
 <p><em>TechStack: Python, Pandas, PandasProfiler, Numpy, Matplotlib, Seaborn, Tableau</em></p>
