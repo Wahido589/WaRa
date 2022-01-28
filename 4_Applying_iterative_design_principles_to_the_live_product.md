@@ -61,6 +61,7 @@ Combining it with our previous funnel analysis we get this:
 <h3>Take action based on our findings</h3>
 We noticed a gap for users aged 50+. Next we conducted interviews to gather qualitative data to understand why this segment experiences higher dropoffs.
 The feedback is very insightful. Most of the user have trouble using the app. A more convenient way of booking rides could improve our dropoff rate for Age 50+ passengers by 30%. Talking about ideas how to solve this issue we came up with this options as new features:
+
  - Design an easy and playful instruction wizard
  - Develop features so that home adresses and favorite places can be saved and quick suggested during the booking process
  - Instead of using the interface via touch screen we could provide an option for booking a ride supported through voice command
