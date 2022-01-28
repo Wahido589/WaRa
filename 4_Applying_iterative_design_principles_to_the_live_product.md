@@ -27,7 +27,7 @@ A funnel analysis is a good way to look at the performance on feature level. You
  
 <h3> Impact on the conversion rate of users booking a flight (out of all users opening the app)</h3>
 
-<img src="https://user-images.githubusercontent.com/72414477/151531086-e550c54f-f7bf-404e-baf3-35c742e30769.PNG" width="300" height="250">
+<img src="https://user-images.githubusercontent.com/72414477/151531086-e550c54f-f7bf-404e-baf3-35c742e30769.PNG" width="300" height="220">
 
 <h3> Impact on the conversion rate of users booking a flight pear each group (out of all users opening the app)</h3>
 
@@ -46,9 +46,13 @@ Going through every group you will see that we have no statistically significant
 We can summarize that the results are not significant. The test condition did not result in a statistically significant increase in conversions, which means any difference between the different versions is more likely due to random chance than to the differences between the different versions. It cannot be said with confidence that the different versions lead to more users booking rides. We should continue to test different versions to see if they can generate a significant test result that shows higher conversions in the test condition.
 
 <h3> Segment Analysis of Funnel</h3>
-To gain deeper insights we can include user data such as demographical or behavioral segment data. 
+To gain deeper insights we can include user data such as demographical or behavioral segment data:
 
-<img src="https://user-images.githubusercontent.com/72414477/151535921-2bf97b8f-0ab0-43b6-8df3-fa84504e3c42.PNG" width="300" height="300"><img src="https://user-images.githubusercontent.com/72414477/151535927-7b999dac-9295-4f41-80d9-b443537fd7de.PNG" width="250" height="250">
+<img src="https://user-images.githubusercontent.com/72414477/151535921-2bf97b8f-0ab0-43b6-8df3-fa84504e3c42.PNG" width="250" height="250"><img src="https://user-images.githubusercontent.com/72414477/151535927-7b999dac-9295-4f41-80d9-b443537fd7de.PNG" width="250" height="250">
+
+Combining it with our previous funnel analysis we get this: 
+
+<img src="https://user-images.githubusercontent.com/72414477/151537375-189f138a-f1b8-49b8-bfb6-a144c9a47b83.PNG" width="250" height="250"> <img src="https://user-images.githubusercontent.com/72414477/151537444-160d7507-1c4c-47a3-9cba-4ca4a1c1fa00.PNG" width="250" height="250">
 
 
 
