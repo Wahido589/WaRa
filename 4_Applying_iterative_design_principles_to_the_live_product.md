@@ -43,6 +43,14 @@ There are different ways how you can calculate p values. One way is using free o
 Going through every group you will see that we have no statistically significant results. Below you see an example for control group vs. exp.1 group:
 
 <img src="https://user-images.githubusercontent.com/72414477/151534456-8f415061-2c8f-4fb7-9c1f-e082c720b431.PNG" width="450" height="250">
+We can summarize that the results are not significant. The test condition did not result in a statistically significant increase in conversions, which means any difference between the different versions is more likely due to random chance than to the differences between the different versions. It cannot be said with confidence that the different versions lead to more users booking rides. We should continue to test different versions to see if they can generate a significant test result that shows higher conversions in the test condition.
+
+<h3> Segment Analysis of Funnel</h3>
+To gain deeper insights we can include user data such as demographical or behavioral segment data. 
+
+<img src="https://user-images.githubusercontent.com/72414477/151535921-2bf97b8f-0ab0-43b6-8df3-fa84504e3c42.PNG" width="450" height="250">
+<img src="https://user-images.githubusercontent.com/72414477/151535927-7b999dac-9295-4f41-80d9-b443537fd7de.PNG" width="450" height="250">
+
 
 
   
