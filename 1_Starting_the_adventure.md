@@ -13,7 +13,7 @@ The Objective is focused on <b>User Acquisition</b>. At this point in the Produc
    - This makes up 24 operating hours per week which equals 1.440 minute per week
    - 1440 minutes divided through median duration (11min) = 131 Flights per Week
    - Using Pareto Principle (80/20) we estimate that 131*80% = 105 Flights per Week are doable
-3. Number of Weekly active Users :arrow_right: ~ Assuming 3% Conversion rate => 7000 weekly active Users Source: https://blog.hubspot.com/marketing/conversion-rate-optimization-guide
+3. Number of Weekly active Users :arrow_right: ~ Assuming [3% Conversion rate](https://blog.hubspot.com/marketing/conversion-rate-optimization-guide) => 7000 weekly active Users Source: 
    - Having two aircrafts we are aiming for 105 *2 = 210 Flights per Week in Total
    - Assuming that 210 Flights is the result of a 3% conversion rate we expect 6.982 weekly active Users	which makes up approx. 7000 Users
 4. Net Promoter Score :arrow_right: in average 10 out of 10 times the customer would most likely refer us for network effects
