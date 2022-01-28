@@ -23,4 +23,7 @@ with my previous job as an IT consultant. Please be aware that this is no legal 
 This is just for the purpose of showcasing my skillset. <p><em>#iso2700x #itil #gdpr #dpo #itgc</p></em>
 
 <b>4. [Applying iterative design principles to the live product](https://github.com/Wahido589/WaRa/blob/01ec4632fce94306122c7281bafb8d984962f772/4_Applying_iterative_design_principles_to_the_live_product.md)</b> :arrows_counterclockwise:
-🚧
+The data gave us some good insights that enables us to shape our operations. We also considered the requirements to use personal data in line the data privacy rights. 
+The market introduction of our product went well and now we would like improve our product continously.
+<p><em>TechStack: Python, Pandas, PandasProfiler, Numpy, Matplotlib, Seaborn, Tableau</em></p>
+<p><em>#design_thinking #funnel_analysis #ab_testing #hypothesis_testing</p></em>
