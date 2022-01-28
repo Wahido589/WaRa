@@ -39,9 +39,10 @@ Before we talk about the meaningfulness of the experiment we should check if the
 3. Confidence Threshold => 95%
    - p value would be 0.05, but we have a two-tailed t-test, therefore p value = 0.025
 
+There are different ways how you can calculate p values. One way is using free online [tools](https://www.surveymonkey.com/mp/ab-testing-significance-calculator/).
+Going through every group you will see that we have no statistically significant results. Below you see an example for control group vs. exp.1 group:
 
-
-
+<img src="https://user-images.githubusercontent.com/72414477/151534456-8f415061-2c8f-4fb7-9c1f-e082c720b431.PNG" width="450" height="250">
 
 
   
