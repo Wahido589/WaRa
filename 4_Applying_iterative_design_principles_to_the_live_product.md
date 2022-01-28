@@ -54,6 +54,11 @@ Combining it with our previous funnel analysis we get this:
 
 <img src="https://user-images.githubusercontent.com/72414477/151537375-189f138a-f1b8-49b8-bfb6-a144c9a47b83.PNG" width="250" height="250"> <img src="https://user-images.githubusercontent.com/72414477/151537444-160d7507-1c4c-47a3-9cba-4ca4a1c1fa00.PNG" width="250" height="250">
 
+<b>Age</b>: There are almost no significant movements between the control & experimental groups. First Dropoff is about 58%, second dropoff around 36% and last dropoff at 98%. There is one thing that is a bit off at the 50+ age group. The 2nd dropoff here is around 67% (vs. 36% in average). 
+
+<b>Neighborhoods</b>: There are no significant movements between the control & experimental groups. First dropoff is about 58%, second dropoff at 52% and third dropoff at 98%. This is materially visible across all neighborhoods. 
+
+
 
 
   
