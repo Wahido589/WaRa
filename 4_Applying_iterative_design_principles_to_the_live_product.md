@@ -46,7 +46,7 @@ Going through every group you will see that we have no statistically significant
 We can summarize that the results are not significant. The test condition did not result in a statistically significant increase in conversions, which means any difference between the different versions is more likely due to random chance than to the differences between the different versions. It cannot be said with confidence that the different versions lead to more users booking rides. We should continue to test different versions to see if they can generate a significant test result that shows higher conversions in the test condition.
 
 <h3> Segment Analysis of Funnel</h3>
-To gain deeper insights we can include user data such as demographical or behavioral segment data:
+To gain deeper insights we can include user data such as demographical or behavioral segment data. Here is our demographical data:
 
 <img src="https://user-images.githubusercontent.com/72414477/151535921-2bf97b8f-0ab0-43b6-8df3-fa84504e3c42.PNG" width="250" height="250"><img src="https://user-images.githubusercontent.com/72414477/151535927-7b999dac-9295-4f41-80d9-b443537fd7de.PNG" width="250" height="250">
 
@@ -57,6 +57,14 @@ Combining it with our previous funnel analysis we get this:
 <b>Age</b>: There are almost no significant movements between the control & experimental groups. First Dropoff is about 58%, second dropoff around 36% and last dropoff at 98%. There is one thing that is a bit off at the 50+ age group. The 2nd dropoff here is around 67% (vs. 36% in average). 
 
 <b>Neighborhoods</b>: There are no significant movements between the control & experimental groups. First dropoff is about 58%, second dropoff at 52% and third dropoff at 98%. This is materially visible across all neighborhoods. 
+
+<h3>Take action based on our findings</h3>
+We noticed a gap for users aged 50+. Next we conducted interviews to gather qualitative data to understand why this segment experiences higher dropoffs.
+The feedback is very insightful. Most of the user have trouble using the app. A more convenient way of booking rides could improve our dropoff rate for Age 50+ passengers by 30%. Talking about ideas how to solve this issue we came up with this options as new features:
+ - Design an easy and playful instruction wizard
+ - Develop features so that home adresses and favorite places can be saved and quick suggested during the booking process
+ - Instead of using the interface via touch screen we could provide an option for booking a ride supported through voice command
+
 
 
 
