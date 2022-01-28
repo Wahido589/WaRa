@@ -29,7 +29,7 @@ A funnel analysis is a good way to look at the performance on feature level. You
 
 <img src="https://user-images.githubusercontent.com/72414477/151531086-e550c54f-f7bf-404e-baf3-35c742e30769.PNG" width="300" height="220">
 
-<h3> Impact on the conversion rate of users booking a flight pear each group (out of all users opening the app)</h3>
+<h3> Impact on the conversion rate of users booking a flight pear each group (based on previous feature)</h3>
 
 <img src="https://user-images.githubusercontent.com/72414477/151536565-dee6e375-ab89-4a3c-b40b-c7885b1e70bb.PNG" width="300" height="300">
 Before we talk about the meaningfulness of the experiment we should check if the results are statistical significant. Doing this, we make sure the likelihood that the results are du to random chance is below a certain threshold (p value). In order to achieve statistically significant results, it is important to have a large enough group of participants in our experiment. The number of participants needed for the experiment to produce statistically significant results is called sample size. We will follow this checklist:
