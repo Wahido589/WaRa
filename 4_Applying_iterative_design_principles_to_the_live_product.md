@@ -5,12 +5,7 @@ Below you will find mostly excerpts of Tableau visualizations. You can find the 
 
 First we look how our product is performing. We have designed KPI in chapter 1 which we use to measure our success. There are different layers which we could check:
  - KPI on business level (depending on business model, e.g. # of purchases, renewal of subscriptions, paying customer satisfaction)
- - KPI on customer journey level 
-   - Acquisition (# of visitors/day)
-   - Activation (# of account creations)
-   - Retention (average customer lifespan)
-   - Revenue (Customer Lifetime Value)
-   - Referral (#new customers through referral)
+ - KPI on customer journey level (Acquisition, Activation, Retention, Revenue, Referral)
 - KPI on feature level
    - Acquisition (Who saw the features?)
    - Activation (Who used the feature?)
@@ -66,8 +61,18 @@ The feedback is very insightful. Most of the user have trouble using the app. A 
  - Develop features so that home adresses and favorite places can be saved and quick suggested during the booking process
  - Instead of using the interface via touch screen we could provide an option for booking a ride supported through voice command
 
+Other stakeholders having as well features they would like to see as part of our running product. They might have different reasons to say that their feature is more important than the ones we listed above. The [RICE Framework](https://www.productplan.com/glossary/rice-scoring-model/) helps you to prioritize. 
 
+<h1>Next steps</h1>
+After prioritizing the features we are almost ready to run experiments again. But we need to think about:
 
+- doing A/B or Multivariate Testing?
+- Track User Actions during the test:
+  1. Track User Data
+  2. Create Instrumentation Plan
+  3. Track Experiment Conversion rates
 
+And this all has to be done unbiased.
 
+Next thing we notice is we are back at the top of this chapter and checking out the Funnel Analysis. 
   
